@@ -1,9 +1,9 @@
 // Declare uma variável contendo uma string
 var string = "Hello, world!";
 // Declare uma variável contendo um número dentro de uma string
-var stringNumero = "variavel 2";
+var stringNumero = "2";
 // Declare uma variável com a sua idade
-var idade = "28";
+var idade = 28;
 // Declare duas variáveis, uma com seu nome
 // e outra com seu sobrenome e some as mesmas
 var nome = "Allyson";
