@@ -39,12 +39,12 @@ function tipoDado(valor) {
 // addEventListener é uma função nativa do JavaScript
 // o primeiro parâmetro é o evento que ocorre e o segundo o Callback
 // utilize essa função para mostrar no console o seu nome completo
-// quando o evento 'scroll' ocorrer.
+// quando o evento 'click' ocorrer.
 function imprimeNome(valor) {
   console.log("Allyson Thales dos Santos");
 }
 
-addEventListener("scroll", imprimeNome);
+addEventListener("click", imprimeNome);
 
 // Corrija o erro abaixo
 function precisoVisitar(paisesVisitados) {
