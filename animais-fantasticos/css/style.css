@@ -103,6 +103,9 @@ body {
   overflow-y: scroll;
   grid-column: 2;
 }
+.animais-lista li {
+  cursor: pointer;
+}
 
 .animais-lista::-webkit-scrollbar {
   width: 18px;
@@ -217,5 +220,25 @@ body {
   }
   .copy {
     margin-bottom: 0px;
+  }
+}
+
+.js .js-tabcontent section {
+  display: none;
+}
+
+.js-tabcontent section.ativo {
+  display: block;
+  animation: show 0.5s forwards;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }
