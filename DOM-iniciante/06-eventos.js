@@ -45,8 +45,9 @@ function removeClick(event) {
 document.addEventListener("keydown", keyDown);
 tamanho = 16;
 function keyDown(event) {
+  const htmlElement = document.querySelector("html");
   if (event.key == "t") {
     tamanho++;
-    document.body.style.fontSize = `${tamanho}px`;
+    htmlElement.style.fontSize = `${tamanho}px`;
   }
 }
