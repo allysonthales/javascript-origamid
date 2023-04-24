@@ -10,7 +10,7 @@
 function Pessoa() {
   this.nome = "Nome pessoa";
   const idade = 0;
-  const andar = function andar() {
+  this.andar = function () {
     console.log(this.nome + " andou");
   };
 }
