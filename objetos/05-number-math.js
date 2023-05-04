@@ -4,7 +4,7 @@ console.log(Math.floor(Math.random() * (2000 - 1050 + 1) + 1050));
 
 // Retorne o maior número da lista abaixo
 const numeros = "4, 5, 20, 8, 9";
-const listaNumeros = numeros.split(", ");
+let listaNumeros = numeros.split(", ");
 const maiorNumero = Math.max(...listaNumeros);
 console.log(maiorNumero);
 
