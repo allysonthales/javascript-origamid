@@ -44,3 +44,5 @@ console.log(configuracao);
 // protótipo de String e Array
 
 
+console.log(Object.getOwnPropertyNames(String.prototype));
+console.log(Object.getOwnPropertyNames(Array.prototype));
